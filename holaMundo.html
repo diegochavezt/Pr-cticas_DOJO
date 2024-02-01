@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic II</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Número Telefónico</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nombre de Ejemplo</td>
+                <td>un_email@gmail.com</td>
+                <td>555-5555</td>
+            </tr>
+            <tr>
+                <td>Otro Nombre</td>
+                <td>otro_email@gmail.com</td>
+                <td>444-4444</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>Esta es una lista de mis cosas favoritas:</h1>
+    <ul>
+        <li>Comida</li>
+        <li>Gatos</li>
+        <li>Café</li>
+        <li>Música</li>
+    </ul>
+    <form action="">
+        <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" placeholder="Ejem: Gael">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Ejem: diego@example.com">
+        </div>
+        <div>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" >
+        </div>
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="masculino" value="masculino">
+        <label for="femenino">Femenino</label>
+        <input type="radio" name="genero" id="femenino" value="femeninio">
+        <label for="genero">Genero:</label>
+        <select name="genero" id="genero">
+            <option value="prefiero-no-decirlo">Prefiero no decirlo</option>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+        </select>
+        <br>
+        <label for="azul">Azul</label>
+        <input type="checkbox" id="azul" name="color" value="azul">
+        <label for="azul">Verde</label>
+        <input type="checkbox" id="verde" name="color" value="verde">
+        <label for="azul">Amarillo</label>
+        <input type="checkbox" id="amarillo" name="color" value="amarillo">
+        <label for="azul">Marrón</label>
+        <input type="checkbox" id="marrón" name="color" value="marrón">
+        <br>
+        <label for="comentario">Comentarios:</label>
+        <br>
+        <textarea name="description" id="comentario" cols="30" rows="10" placeholder="Escribe aquí..."></textarea>
+        <br>
+        <br>
+        <label for="hidden"></label>
+        <input type="hidden" name="id" value="7" id="hidden">
+        <br>
+        <button type="submit" value="enviar">Enviar</button>
+    </form>
+    <br>
+    <div>
+        <form>
+            <p>Por favor registrese</p>
+            <label>
+                Nombre:<input type="text" name="name">
+            </label>
+            <p>Seleccione su género</p>
+            <label>
+                Masculino<input type="radio" name="genero" value="masculino">
+            </label>
+            <label>
+                Femenino<input type="radio" name="genero" value="femenino">
+            </label>
+            <label>
+                Prefiero no decirlo<input type="radio" name="genero" value="prefiero-no-decirlo">
+            </label>
+            <p>Por su seguridad ingrese su contraseña</p>
+            <label>
+                Contraseña:<input type="password" name="password">
+            </label>
+            <input type="submit" name="button" value="Presione aquí para registrarse">
+        </form>
+    </div>
+</body>
+</html>
